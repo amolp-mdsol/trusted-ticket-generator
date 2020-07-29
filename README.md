@@ -36,6 +36,7 @@ To monitor and manage your application
 
 |  URL |  Method | Remarks |
 |----------|--------------|--------------|
+|`http://SERVER_URL:<PORT>/swagger-ui.html`  | GET | You can see the Swagger/OpenAPI UI documentation|
 |`http://SERVER_URL:<PORT>/trusted-token`  | GET | To get Trusted Ticket by passing query params|
 |`http://SERVER_URL:<PORT>/trusted-token`  | POST | To get Trusted Ticket by passing request body|
 
