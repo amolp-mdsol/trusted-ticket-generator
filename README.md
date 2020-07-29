@@ -54,3 +54,11 @@ http://SERVER_URL:<PORT>/trusted-token?userName=<user_name>&site=<site_name>&ser
 "serverUrl":"<server_url>"
 }
 ```
+
+## Built With
+
+* [Maven](https://maven.apache.org/) - Dependency Management
+
+## Authors
+
+* **Amol Patil** - [Github](https://github.com/amolp-mdsol)

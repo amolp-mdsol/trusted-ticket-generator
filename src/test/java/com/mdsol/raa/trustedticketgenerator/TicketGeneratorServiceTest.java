@@ -2,13 +2,15 @@ package com.mdsol.raa.trustedticketgenerator;
 
 import com.mdsol.raa.trustedticketgenerator.service.TicketGeneratorService;
 import com.mdsol.raa.trustedticketgenerator.utils.Config;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-import org.springframework.stereotype.Component;
+import org.springframework.boot.test.context.SpringBootTest;
 
 /**
  * @author Amol Patil apatil@mdsol.com
  */
-@Component
+@Disabled
+@SpringBootTest
 class TicketGeneratorServiceTest {
     Config config = Config.getConfigInstance();
 
